@@ -12,8 +12,6 @@ EdgeWorker Code to capture cookie field values and store them in a PM Variable s
 
 Takes a list of cookieNames defined in 'cookieData' grabs the values for all those cookies or fields, then stores into a JSON object which is then written to Akamai variable PMUSER_COOKIEDATA. This variable can then be collected and reported by DS2 to allow for enhanced data logging.
 
-## SA
-
 ## Logic Overivew
 
 - The object 'cookieData' contains the list of field/cookie names which we will capture into the final JSON object.
