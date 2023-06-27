@@ -1,0 +1,4 @@
+{
+  "edgeworker-version": "1.0",
+  "description": "Wrapped the whole thing in try/catch blocks to prevent runtime errors disrupting response"
+}
