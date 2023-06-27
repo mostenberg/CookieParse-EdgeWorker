@@ -34,4 +34,4 @@ Takes a list of cookieNames defined in 'cookieData' grabs the values for all tho
 - In your Akamai configuration, add the EdgeWorker behavior and set it to use the Edgeworker you created.
 - To reduce the number of EdgeWorker executions, it is recommended that you only execute the EdgeWorker for the base page and omit resources (omit extensions jpg,png,js,css,gif,woff2 etc)
 - In your Akamai configuration, adjust your 'Log Request Details' to capture the field 'PMUSER_COOKIEDATA' [Figure 2](/images/logrequestdetails.jpg)
-- Confirm that your DataStream2 setup is configured to capture 'Custom Fields'[Figure 3](/images/ds2setup.jpg)
+- Confirm that your DataStream2 setup is configured to capture 'Custom Fields' [Figure 3](/images/ds2setup.jpg)
